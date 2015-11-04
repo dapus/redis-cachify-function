@@ -1,0 +1,29 @@
+{
+  "name": "redis-cachify-function",
+  "version": "0.1.0",
+  "description": "Cache result of a function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dapus/redis-cachify-function"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dapus/redis-cachify-function/issues"
+  },
+  "homepage": "https://github.com/dapus/redis-cachify-function",
+  "dependencies": {
+    "async": "^1.5.0",
+    "redis-lock": "^0.1.0"
+  },
+  "devDependencies": {
+    "redis": ">=0.3.5"
+  },
+  "peerDependencies": {
+    "redis": ">=0.3.5"
+  }
+}
